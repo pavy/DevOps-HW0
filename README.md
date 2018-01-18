@@ -48,7 +48,7 @@
 
 * Establish a name for remote mirror
 
-    `git remote add prod file://deploy/production.git`
+    `git remote add prod file:///home/vagrant/workshop/Pipeline/deploy/production.git`
 
 * Do a simple Commit
 * Push your changes
