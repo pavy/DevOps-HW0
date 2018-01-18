@@ -1,10 +1,9 @@
 # DevOps: HW0
---------------
-
 
 
 ## Computing Environment
 
+[Workshop Guide](https://github.com/chrisparnin/ComputingEnvironmentsWorkshop/blob/master/VM.md)
 * Install git, vagrant and Virtual Box
 * vagrant init ubuntu/trusty64
 * Enabled private network, synced folder(clone git ComputingEnvironmentWorkshop repository) and fix DNS
@@ -15,12 +14,12 @@
 * Install node.js in VM
 * Run npm install from the synced directory
 * npm run forever
-* See the message in browser - private_ip:3000 
+* See the message in browser - private_ip:3000 [link](http://192.168.18.23:3000/)
 * npm run stop
 
 
 ## Hooks
-
+[Workshop Guide](https://github.com/CSC-DevOps/Course/blob/master/Workshops/PipelineBasics.md)
 #### A simple hook
 
 * Create a local git repository (using `git init`)
@@ -32,7 +31,7 @@
     `xdg-open https://www.google.com`
 
 ## Pipeline
-
+[Workshop Guide](https://github.com/CSC-DevOps/Course/blob/master/Workshops/PipelineBasics.md)
 * Clone App repository
 * Create deploy/production-www and deploy/production.git directories outside App
 * Configure post-receive hook in production.git and check that the file is executable
@@ -56,4 +55,4 @@
 
     `git push prod master`
 
- You can check your modification in the production-www directory and app can be viewed at VM_IP:9000 in the browser. 
+ You can check your modification in the production-www directory and app can be viewed at VM_IP:9000([link](http://192.168.18.23:9000/)) in the browser. 
