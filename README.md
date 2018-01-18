@@ -28,6 +28,7 @@
 * Create `post-commit` file with the following content:
 
     `#!/bin/sh`
+    
     `xdg-open https://www.google.com`
 
 ## Pipeline
@@ -37,9 +38,13 @@
 * Configure post-receive hook in production.git and check that the file is executable
 
     `#!/bin/sh`
+    
     `GIT_WORK_TREE=/home/vagrant/workshop/Pipeline/deploy/production-www git checkout -f`
+    
     `echo "Pushed to production"`
+    
     `cd /home/vagrant/workshop/Pipeline/deploy/production-www && npm install`
+    
     `node main.js 9000`
 
 * Establish a name for remote mirror
