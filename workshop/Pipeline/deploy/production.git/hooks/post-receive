@@ -1,5 +1,0 @@
-#!/bin/sh
-GIT_WORK_TREE=/home/vagrant/workshop/Pipeline/deploy/production-www git checkout -f
-echo "Pushed to production"
-cd /home/vagrant/workshop/Pipeline/deploy/production-www && npm install
-node main.js 9000
