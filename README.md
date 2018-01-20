@@ -1,6 +1,12 @@
 # DevOps: HW0
 #### Screencast([link](https://youtu.be/atX1i56iOVk))
 
+#### Slack profile 
+![Alt text](Images/Slack.png?raw=true "Click here")
+
+#### Moodle profile 
+![Alt text](Images/Moodle.png?raw=true "Click here")
+
 ## Computing Environment
 
 [Workshop Guide](https://github.com/chrisparnin/ComputingEnvironmentsWorkshop/blob/master/VM.md)
